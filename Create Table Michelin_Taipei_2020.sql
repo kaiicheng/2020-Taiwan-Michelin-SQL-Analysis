@@ -1,0 +1,4 @@
+CREATE TABLE michelin_all AS
+SELECT id, comment_count, title, author, content, sentiment
+FROM ptt_foodmichelin_all
+WHERE title LIKE '%頤宮%' or title LIKE '%教父牛排%' or title LIKE '%MUME%' or title LIKE '%RAW%' or title LIKE '%JL Studio%' or title LIKE '%A Cut%' or title LIKE '%祥雲龍吟%' or title LIKE '%大三元%' or title LIKE '%請客樓%' or title LIKE '%謙安和%' or title LIKE '%明壽司%' or title LIKE '%天香樓%' or title LIKE '%鹽之華%' or title LIKE '% Forchetta%' or title LIKE '%俺達の肉屋%' or title LIKE '%雅閣%' or title LIKE '%金蓬萊%' or title LIKE '%Longtail%' or title LIKE '%鮨野村%' or title LIKE '%山海樓%' or title LIKE '%態芮%' or title LIKE '%鮨天本%' or title LIKE '%鮨隆%' or title LIKE '%明福台菜海產%' or title LIKE '%Logy%' or title LIKE '%吉兆割烹%' or title LIKE '%大腕燒肉%' or title LIKE '%IMPROMPTU%' or title LIKE '%L’ATELIER%' or title LIKE '%Molino%' or title LIKE '%渥達尼斯%' or title LIKE '%侯布雄%';
